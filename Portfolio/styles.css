@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+.navbar {
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    height: 60px;
+    background-color:rgb(28, 12, 91);
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    
+
+}
+section{
+    padding-top: 100px
+}
+img{
+    margin: 20px;
+    border-radius: 50%;
+}
+.navlist {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px
+} 
+.navlist li a {
+    padding: 10px;
+    font-family: "Roboto", sans-serif;
+    color:rgb(201, 150, 204);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .05rem;
+    
+}
+
+h2 {
+   
+    color:rgb(145, 107, 191);
+}
+h4 {
+    font-family: "Roboto", sans-serif;
+    color: rgb(61, 44, 141);
+}
+.button {
+    margin-top: 10px;
+    border-radius: 5px;
+    border: rgb(145, 107, 191) solid 2px;
+    background-color: transparent;
+    color: rgb(28, 12, 91);
+}
+.button:hover{
+    color: rgb(201, 150, 204);
+    background-color: rgb(28, 12, 91);
+    border: 5px solid transparent;
+
+}
+
+.aboutMe{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact h1{
+   text-align: center;
+}
+.contact label, input{
+   display: block;
+   color: rebeccapurple;
+}
+.informations {
+    font-family: "Roboto", sans-serif;
+    color: rgb(28, 12, 91);
+}
+.details {
+    font-family: "Roboto", sans-serif;
+    color: rgb(145, 107, 191);
+}
+.informations, .details {
+    display: inline-block;
+    
+}
+form{
+    padding: 50px;
+}
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+  .contact h1 {
+    color: rgb(201, 150, 204);
+    font-family: "Roboto", sans-serif;
+  }
+
